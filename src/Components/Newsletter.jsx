@@ -15,7 +15,7 @@ const Newsletter = () => {
               height={200}
             />
             <div className="bg-grey-80 bg-opacity-80 md:my-16 lg:py-16 py-10 w-full md:mx-24 md:px-12 px-4 flex-col items-center justify-center relative ">
-              <h3 className=" leading-9 text-white text-center">
+              <h3 className=" leading-9 text-white text-center space-mono">
                 Don’t miss out the 50% discount!
               </h3>
               <p className=" text-base leading-normal text-center text-white mt-6">

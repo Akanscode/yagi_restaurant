@@ -10,7 +10,7 @@ const Hero = () => {
             <div className=" pt-32 md:pt-20">
               <div className="flex items-center flex-wrap px-2 md:px-0">
                 <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
-                  <p className="text-status-red-70 font-bold text-sm animate__animated animate__zoomIn ">
+                  <p className="text-status-red-70 font-bold text-sm animate__animated animate__zoomIn space-mono">
                     Get 25% of your first order
                   </p>
                   <h3 className=" text-grey-60 lg:w-10/12 uppercase ">

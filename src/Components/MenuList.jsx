@@ -10,9 +10,9 @@ const MenuList = () => {
       <div className="container mx-auto w-full">
         <div className="relative py-16 md:py-20 mx-auto">
           <div className="mt-5">
-            <h5 className="inline-block px-3 py-px mb-4  tracking-wider rounded-full text-slate-200  bg-status-yellow-60">
+            <h6 className="inline-block px-3 py-px mb-4  tracking-wider rounded-full text-slate-200  bg-status-yellow-60 uppercase space-mono">
               About
-            </h5>
+            </h6>
             <h3 className="text-grey-80  mb-5">Our Special Dishes</h3>
 
             <div className="border-status-yellow-70  border-b-4 border-t-4 ">

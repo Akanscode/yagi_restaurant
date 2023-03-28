@@ -10,7 +10,7 @@ const TeamMember = () => {
       <div className="container mx-auto w-full">
         <div className="relative py-16 md:py-20 mx-auto">
           <div className=" mb-10  text-center">
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-slate-200 uppercase rounded-full bg-status-yellow-60">
+            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-slate-200 uppercase rounded-full bg-status-yellow-60 space-mono">
               Discover Our Chef
             </p>
             <h5 className="font-bold text-md text-grey-90 tracking-wider capitalize  ">
