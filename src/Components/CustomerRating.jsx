@@ -85,7 +85,7 @@ const CustomerRating = () => {
                       </svg>
                     </div>
                     <p className="text-grey-50 text-sm font-bold">
-                      "We have on our menu the offer you can get anywhere."{" "}
+                      We have on our menu the offer you can get anywhere.
                     </p>
                   </div>
                 </div>

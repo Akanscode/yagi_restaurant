@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HiBars3, HiShoppingCart } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
+import { FaUserCircle } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -18,32 +19,12 @@ const Navbar = () => {
             {/** ========= search bar on a mobile view ========= */}
             <div className="flex lg:hidden">
               <div className="flex justify-between items-center">
-                <form className="relative z-10">
-                  <button
-                    type="submit"
-                    id="searchsubmit"
-                    className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
-                  >
-                    <svg
-                      className="h-5 w-5 text-grey-60"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
+                <div className="p-2">
+                  <button className="">
+                    {" "}
+                    <FaUserCircle className="w-6 h-6 text-black hover:text-status-yellow-60 " />
                   </button>
-                  <input
-                    type="text"
-                    name="search"
-                    id="search"
-                    className="block w-full pl-10 pr-3 py-2 border border-transparent rounded-md leading-5 bg-status-yellow-60 text-grey-30 placeholder-grey-40 focus:outline-none focus:bg-white focus:text-grey-90 sm:text-sm transition duration-150 ease-in-out"
-                    placeholder="Search"
-                  />
-                </form>
+                </div>
                 <div className="bg-status-yellow-60 rounded-full p-2 ml-3">
                   <HiShoppingCart size={20} className="text-grey-100  " />
                 </div>
@@ -75,12 +56,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/about" className="nav-link">
+                <Link href="" className="nav-link">
                   Categories
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/product" className="nav-link">
+                <Link href="" className="nav-link">
                   Menu
                 </Link>
               </li>
@@ -94,14 +75,6 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
-              <div className="mx-4">
-                <Link href="/orderservice">
-                  <button className=" bg-grey-90 hover:bg-status-yellow-60 px-4 py-2 rounded-full text-white ">
-                    {" "}
-                    Login
-                  </button>
-                </Link>
-              </div>
             </ul>
           </div>
           {/**=============search bar and add to cart on disktop */}
@@ -133,6 +106,12 @@ const Navbar = () => {
                   placeholder="Search"
                 />
               </form>
+              <div className="mx-3">
+                <button className="p-2">
+                  {" "}
+                  <FaUserCircle className="w-6 h-6 text-black hover:text-status-yellow-60 " />
+                </button>
+              </div>
               <div className="bg-status-yellow-60 rounded-full p-2 ml-3">
                 <HiShoppingCart size={20} className="text-grey-100  " />
               </div>
