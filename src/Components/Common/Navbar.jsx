@@ -22,10 +22,10 @@ const Navbar = () => {
                 <div className="p-2">
                   <button className="">
                     {" "}
-                    <FaUserCircle className="w-6 h-6 text-black hover:text-status-yellow-60 " />
+                    <FaUserCircle className="w-8 h-8 text-black hover:text-status-yellow-60 " />
                   </button>
                 </div>
-                <div className="bg-status-yellow-60 rounded-full p-2 ml-3">
+                <div className="bg-status-yellow-60 rounded-full p-1 ml-3">
                   <HiShoppingCart size={20} className="text-grey-100  " />
                 </div>
               </div>
@@ -107,12 +107,12 @@ const Navbar = () => {
                 />
               </form>
               <div className="mx-3">
-                <button className="p-2">
+                <button className="">
                   {" "}
-                  <FaUserCircle className="w-6 h-6 text-black hover:text-status-yellow-60 " />
+                  <FaUserCircle className="w-8 h-8 text-black hover:text-status-yellow-60 " />
                 </button>
               </div>
-              <div className="bg-status-yellow-60 rounded-full p-2 ml-3">
+              <div className="bg-status-yellow-60 rounded-full p-1 ml-3">
                 <HiShoppingCart size={20} className="text-grey-100  " />
               </div>
             </div>
